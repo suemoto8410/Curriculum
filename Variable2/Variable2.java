@@ -22,12 +22,16 @@ public class Variable2 {
 		int i;
 		i = 100;
 //		②インクリメント演算子を適用して数値を 1 増やす。
+		//変数iに1を足す
 		i ++;
 //		③コンソールに変数 i の値を表示する。
+		//変数iを出力
 		System.out.println(i);
 //		④デクリメント演算子を適用して数値を 1 減らす。
+		//変数iから1を引く
 		i --;
 //		⑤コンソールに変数 i の値を表示する。
+		//変数iを出力
 		System.out.println(i);
 //		問３）
 //		下記の例のような文章をコンソールに出力して下さい。
@@ -36,9 +40,12 @@ public class Variable2 {
 //		例）
 //		あなたの年齢を予想します。
 //		あなたの年齢はおそらく〇〇歳ですね？
+		//変数zを宣言し乱数0～100までの値を代入
 		Random rnd = new Random();
 		int z;
 		z = rnd.nextInt(101);
+		
+		//年齢予想　出力
 		
 		System.out.println("あなたの年齢を予想します。");
 		System.out.println("あなたの年齢はおそらく" + z + "歳ですね？");
