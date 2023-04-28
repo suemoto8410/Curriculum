@@ -1,5 +1,3 @@
-package curriculum_New_question;
-
 public class Curriculum_New_1_5 {
 
     public static void main(String[] args) {
@@ -31,7 +29,7 @@ public class Curriculum_New_1_5 {
     	// 山田太郎　自己紹介　出力
     		System.out.println("初めまして" + name + "です");
     		System.out.println("年齢は" + age + "歳です");
-    		System.out.println("身長は" + height + "cmです");
+    		System.out.println("身長" + height + "cmです");
     		System.out.println("体重は" + weight + "kgです");
     		System.out.println("好きな食べ物は" + favorite +  "です");
         // Q2 Q1で作成した自己紹介に続いて、BMIがコンソールに出力されるようにしてください
@@ -68,6 +66,9 @@ public class Curriculum_New_1_5 {
     	favorite = "オムライス";
     	//BMI
     	BMI = (float)Math.round(weight * 10000 / (height * height) * 10) / 10; 
+    	
+    	//改行を出力
+    	System.out.println("");
     	
     	//鈴木一郎　自己紹介　出力
     	System.out.println("初めまして" + name + "です");
