@@ -2,7 +2,7 @@ package Variable2_6;
 
 import java.util.Random;
 
-public class Variable2 {
+public class Variable2_6 {
 	public static void main(String[] args) {
 //		問１）
 //		変数 x を宣言し、「3」を代入して下さい。
