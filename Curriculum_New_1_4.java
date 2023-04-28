@@ -72,9 +72,9 @@ public class Curriculum_New_1_4 {
 	    	 
 	    //String型変数numをint型に変更
 	    int num = 20;
- 		int num1 = 23;
+		int num1 = 23;
  		
- 		System.out.println("ハローJAVA" + (num + num1));
+		System.out.println("ハローJAVA" + (num + num1));
 
      }
 
