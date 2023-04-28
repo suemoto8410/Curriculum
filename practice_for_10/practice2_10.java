@@ -23,17 +23,17 @@ public class practice2_10 {
 
 	public static void main(String[] args) {
 		
-		//int型変数xを宣言、変数xに1を値9まで足し続けるfor分を定義
-		for(int x = 1; x < 10; x++) {
+		//int型変数numを宣言、変数numに1を値9まで足し続けるfor分を定義
+		for(int num = 1; num < 10; num++) {
 			
-			//int型変数yを宣言、変数yに1を値9まで足し続けるfor分を定義
-			for(int y = 1; y < 10; y++) {
+			//int型変数num2を宣言、変数num2に1を値9まで足し続けるfor分を定義
+			for(int num2 = 1; num2 < 10; num2++) {
 				
-				//int型変数zを宣言、変数x,yを掛ける式を代入
-				int z = x * y;
+				//int型変数productを宣言、変数x,yの積を代入
+				int product = num * num2;
 				
 				//九九の計算を出力
-				System.out.print(x + "×" + y + " = " + z + " ");
+				System.out.print(num + "×" + num2 + " = " + product + " ");
 			}
 			
 			//九九の段ごとに改行を出力
