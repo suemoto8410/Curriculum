@@ -33,19 +33,19 @@ public class practice_12 {
 	
 	public static void main(String[] args) {
 		
-		//int型変数iを宣言,値1を代入
-		int i = 1;
+		//int型変数numを宣言,値1を代入
+		int num = 1;
 		
-		//変数iをwhileを用いて1～100まで出力
-		while(i <= 100) {
+		//変数numをwhileを用いて1～100まで出力
+		while(num <= 100) {
 			
-			if(i % 2 == 0) {
-				System.out.println(i + "は偶数です");
+			if(num % 2 == 0) {
+				System.out.println(num + "は偶数です");
 			} else {
-				System.out.println(i + "は奇数です");
+				System.out.println(num + "は奇数です");
 			}
 			
-			i ++;
+			num ++;
 		}
 	}
 
