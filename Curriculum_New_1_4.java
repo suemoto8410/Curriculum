@@ -17,14 +17,14 @@ public class Curriculum_New_1_4 {
 	     //	 	・ブーリアン型 
     	 		boolean k;
 	     // Q2 それぞれのクラス変数をローカル内でそれぞれの初期値を代入し初期化してください
-    	 	 a = 19;
-    	 	 b = 11;
-    	 	 ab = 10;
-    	 	 c = 12;
-    	 	 d = 13.3f;
-    	 	 e = 14.4;
-    	 	 f = 'あ';
-    	 	 h = "ij";
+    	 	 a = 0;
+    	 	 b = 0;
+    	 	 ab = 0;
+    	 	 c = 0L;
+    	 	 d = 0.0f;
+    	 	 e = 0.0d;
+    	 	 f = '\u0000';
+    	 	 h = "null";
     	 	 k = false;
     	 
 	     // Q3 初期化をしたそれぞれの変数に下記の値を代入してください
@@ -57,7 +57,7 @@ public class Curriculum_New_1_4 {
 	     // 20.0
 	    	 System.out.println(d + e);
 	     // a ハロー true
-	    	 System.out.println(f + "　" + h + "　" + k);
+	    	 System.out.println(f + " " + h + " " + k);
 	     // 11130.0                    数字を全て足す
 	    	 System.out.println(a + b + ab + c + d + e);
 	     // 10000000000                小数点以外の数字を全てかける
@@ -69,10 +69,13 @@ public class Curriculum_New_1_4 {
     	// Q5 
     	// 次のプログラムを実行すると「ハローJAVA2023」という結果が表示されます。
     	//「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
+	    	 
+	    //String型変数numをint型に変更
 	    int num = 20;
  		int num1 = 23;
+ 		
  		System.out.println("ハローJAVA" + (num + num1));
- 		 
+
      }
 
 }
