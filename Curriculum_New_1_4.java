@@ -41,7 +41,7 @@ public class Curriculum_New_1_4 {
 	    	 a = 10;
 	    	 b = 100;
 	    	 ab = 1000;
-	    	 c = 10000;
+	    	 c = 10000L;
 	    	 d = 9.5f;
 	    	 e = 10.5;
 	    	 f = 'a';
