@@ -38,13 +38,19 @@ public class Practice2_13 {
 		Point[] b = new Point[3];
 		
 		//配列bの要素数を出力
-		System.out.println("出力結果:" + a.length);
+		System.out.println("出力結果:" + b.length);
+		
+		//改行を出力
+		System.out.println("");
 		
 		//配列a[3]に値10を代入
 		a[3] = 10;
 		
 		//配列a[3]を出力
 		System.out.println("出力結果:"+a[3]);
+		
+		//改行を出力
+		System.out.println("");
 		
 		//配列aの要素数を出力
 		System.out.println("出力結果:配列aの要素数は、" +  a.length + "です。");
