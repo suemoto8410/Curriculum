@@ -39,36 +39,36 @@ public class DateTypeChange_7 {
 //		①double型の変数を定義し、「2 + 6.0」を代入して下さい。
 //		　double型の変数をコンソールに出力して下さい。
 		
-		//double型変数sを宣言、2 + 6.0を代入
-		double s = 2 + 6.0;
+		//double型変数sumを宣言、2 + 6.0を代入
+		double sum = 2 + 6.0;
 		
 		//変数sを出力
-		System.out.println(s);
+		System.out.println(sum);
 //		②int型の変数を定義し、double型の変数をint型に型変換して代入下さい。
 //		　int型の変数をコンソールに出力して下さい。
 		
-		//int型変数tを宣言、double型変数sをintに型変換して代入
-		int t = (int)s;
+		//int型変数sum2を宣言、double型変数sum2をintに型変換して代入
+		int sum2 = (int)sum;
 		//変数tを出力
-		System.out.println(t);
+		System.out.println(sum2);
 //		③String型の変数を定義し、int型の変数をString型に型変換して代入して下さい。
 //		　String型の変数をコンソールに出力して下さい。
 		
-		//String型変数u,int型変数vを宣言,変数vをStringに型変換して変数uに代入
-		String u;
-		int v = 3;
-		u = String.valueOf(v);
+		//String型変数str,int型変数numを宣言,変数numをStringに型変換して変数に代入
+		String str;
+		int num = 3;
+		str = String.valueOf(num);
 		
 		//変数uを出力
-		System.out.println(u);
+		System.out.println(str);
 //		④「②」で定義したint型変数に、String型の変数をint型に型変換して代入して下さい。
 //		　int型の変数をコンソールに出力して下さい。
 		
-		//String変数wを宣言、int型変数変数tを型変換して変数wに代入
-		String w = String.valueOf(t);
+		//String型変数sum3を宣言、int型変数sum2を型変換して変数sum3に代入
+		String sum3 = String.valueOf(sum2);
 		
 		//変数wを出力
-		System.out.println(w);
+		System.out.println(sum3);
 
 	}
 }
