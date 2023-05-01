@@ -18,10 +18,10 @@ public class practice_12 {
 	
 	public static void main(String[] args) {
 		
-		//int型変数numを宣言,値1を代入
+		// int型変数numを宣言,値1を代入
 		int num = 1;
 		
-		//変数numをwhileを用いて1～100まで出力
+		// 変数numをwhileを用いて1～100まで出力
 		while(num <= 100) {
 			
 			if(num % 2 == 0) {
