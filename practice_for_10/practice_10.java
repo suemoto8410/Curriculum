@@ -17,7 +17,7 @@ public class practice_10 {
 	
 	public static void main(String[] args) {
 
-		//int型変数iを宣言、iに2を10回まで足し続けるfor分を出力
+		// int型変数iを宣言、iに2を10回まで足し続けるfor分を出力
 		for(int i = 1; i / 2 < 10;) {
 			
 			i += 2;
