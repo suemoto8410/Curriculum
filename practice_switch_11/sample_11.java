@@ -19,12 +19,12 @@ public class sample_11 {
 	
 	public static void main(String[] args) {
 
-		//int型変数monthを宣言,乱数1～12を代入
+		// int型変数monthを宣言,乱数1～12を代入
 		Random rnd = new Random();
 		
 		int month = rnd.nextInt(12) + 1;
 		
-		//変数monthをswitch構文で出力
+		// 変数monthをswitch構文で出力
 		switch(month) {
 			case 2:
 				System.out.println(month + "月は28日です。");
