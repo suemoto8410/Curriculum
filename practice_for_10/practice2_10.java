@@ -13,10 +13,10 @@ public class practice2_10 {
 
 	public static void main(String[] args) {
 		
-		//int型変数numを宣言、変数numに1を値9まで足し続けるfor分を定義
+		// int型変数numを宣言、変数numに1を値9まで足し続けるfor分を定義
 		for(int num = 1; num < 10; num++) {
 			
-			//int型変数num2を宣言、変数num2に1を値9まで足し続けるfor分を定義
+			// int型変数num2を宣言、変数num2に1を値9まで足し続けるfor分を定義
 			for(int num2 = 1; num2 < 10; num2++) {
 				
 				//int型変数productを宣言、変数x,yの積を代入
@@ -26,7 +26,7 @@ public class practice2_10 {
 				System.out.print(num + "×" + num2 + " = " + product + " ");
 			}
 			
-			//九九の段ごとに改行を出力
+			// 九九の段ごとに改行を出力
 			System.out.print("\r\n");
 		}
 	}
