@@ -63,7 +63,7 @@ public class DateTypeChange_7 {
 		// int型変数 intSum を宣言、double型変数 intSum をintに型変換して代入
 		int intSum = (int)sum;
 		
-		// 変数sum2を出力
+		// 変数intSumを出力
 		System.out.println("問3➁: int型の変数を定義し、");
 		System.out.println("double型の変数をint型に型変換して代入下さい。");
 		System.out.println("int型の変数をコンソールに出力して下さい。\n");
@@ -86,15 +86,15 @@ public class DateTypeChange_7 {
 //		④「②」で定義したint型変数に、String型の変数をint型に型変換して代入して下さい。
 //		　int型の変数をコンソールに出力して下さい。
 		
-		// String型変数sum3を宣言、int型変数sum2を型変換して変数sum3に代入
-		String strSum = String.valueOf(intSum);
+		// 「③」で宣言した。String型変数 strを型変換して「➁」で宣言した変数　intSum　に代入
+		intSum = Integer.parseInt(str);
 		
 		// 変数sum3を出力
 		System.out.println("問3④ : 「②」で定義したint型変数に、");
 		System.out.println("String型の変数をint型に型変換して代入して下さい。");
 		System.out.println("String型の変数をコンソールに出力して下さい。\n");
 		System.out.println("String型の変数 strSum");
-		System.out.println("出力結果: " + strSum);
+		System.out.println("出力結果: " + intSum);
 
 	}
 }
