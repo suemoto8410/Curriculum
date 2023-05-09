@@ -85,7 +85,7 @@ public class Qes1_13 {
 	    // 出力結果: 20.0
 	    System.out.println(flo + dou + "\n");
 	    // 出力結果: a ハロー true
-	    System.out.println(cha + str + boo + "\n");
+	    System.out.println(cha + " " + str + " " + boo + "\n");
 	    // 出力結果: 11130.0	数字を全て足す
 	    System.out.println(byt + sho + i + lon + flo + dou + "\n");
 	    // 出力結果: 10000000000	
