@@ -186,7 +186,7 @@ public class Qes1_13 {
 		height += height;
 		// 体重
 		weight += weight;
-		// 小数第2位(切り上げ)で代入
+		// BMI(小数点第2位(切り上げ)で代入)
 		bmi = (double)Math.round(weight * (m * m) / (height * height) * m) / m;
 		// 再代入後の鈴木一郎自己紹介を再出力
 		System.out.println("初めまして" + name + "です");
