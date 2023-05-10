@@ -3,11 +3,10 @@ package curriculum_A;
 public class Qes1_13 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 /*		Q1 下記9個をローカル変数として宣言のみしてください
-*			・バイト型・短整数型・整数型・長整数型
-*			・単精度浮動小数点数型・倍精度浮動小数点数型
-*			・文字型・文字列型・ブーリアン型
+*		・バイト型・短整数型・整数型・長整数型
+*		・単精度浮動小数点数型・倍精度浮動小数点数型
+*		・文字型・文字列型・ブーリアン型
 */		
 		// バイト型変数 byt を宣言
 		byte byt;
@@ -27,6 +26,7 @@ public class Qes1_13 {
 		String str;
 		// ブーリアン型変数 boo を宣言
 		boolean boo;
+		
 // 		Q2 それぞれのローカル変数をローカル内でそれぞれの初期値を代入し初期化をしてください
 		
 		// 上記で宣言した9つの変数にそれぞれのローカル変数毎の初期値を代入
@@ -37,18 +37,17 @@ public class Qes1_13 {
 		flo = 0.0f;
 		dou = 0.0d;
 		cha = '\u0000';
-		str = "null";
+		str = null;
 		boo = false;
 		
-/*		Q3 初期化をしたそれぞれの変数に下記の値を代入してください
-*		
+/*		Q3 初期化をしたそれぞれの変数に下記の値を代入してください	
 *		・バイト型                 	10
-*	     ・短整数型                 100
-*:	     ・長整数型                	10000
-*	     ・単精度浮動小数点数型   	9.5
-*	     ・倍精度浮動小数点数型		10.5
-*	     ・文字型                   a
-*	     ・文字列型              	ハロー
+*	    ・短整数型                 100
+*:	    ・長整数型                	10000
+*	    ・単精度浮動小数点数型   	9.5
+*	    ・倍精度浮動小数点数型		10.5
+*	    ・文字型                   a
+*	    ・文字列型              	ハロー
 * 		・ブーリアン型          	true
  */
 		// 変数 byt に値10を代入
@@ -95,23 +94,22 @@ public class Qes1_13 {
 	    // 出力結果: -90
 	    System.out.println(byt - sho + "\n");
 
-/*		Q5 次のプログラムを実行すると「ハローJAVA2023」という結果が表示されます。
- * 		「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
+/*       Q5 次のプログラムを実行すると「ハローJAVA2023」という結果が表示されます。
+ * 	    「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
  */
 	    // String変数 num をint変数で宣言
 	    int num = 20;
 	    int num1 = 23;
 	    System.out.println("ハローJAVA" + (num + num1) + "\n");
 	
-	
 /*		Q6 『』で囲われた人の情報を変数にして、formatの通りコンソールに出力してください
  * 		好きな食べ物のみインスタンス変数にして、他の項目はローカル変数に代入し○○に入れてください
- * 		『山田太郎 18歳 170.5cm 62.2kg 寿司』 
+ *     『山田太郎 18歳 170.5cm 62.2kg 寿司』 
  * 		↓↓format↓↓
- * 		「初めまして○○です」
- * 		「年齢は○○歳です」
- * 		「身長は○○cmです」
- * 		「体重は○○kgです」
+ * 	   「初めまして○○です」
+ *     「年齢は○○歳です」
+ *     「身長は○○cmです」
+ *     「体重は○○kgです」
  * 		好きな食べ物は○○です」
  */
 		// 山田太郎profile
@@ -188,7 +186,7 @@ public class Qes1_13 {
 		height += height;
 		// 体重
 		weight += weight;
-		// BMIフォーマットでは11.31のため小数第2まで代入
+		// 小数第2位(切り上げ)で代入
 		bmi = (double)Math.round(weight * (m * m) / (height * height) * m) / m;
 		// 再代入後の鈴木一郎自己紹介を再出力
 		System.out.println("初めまして" + name + "です");
@@ -199,30 +197,34 @@ public class Qes1_13 {
 		System.out.println("BMIは" + bmi + "です\n");
 		
 //		Q10 Q8で使用した年齢が25歳以上ならtrueが出力されるようにしてください。ただしif文は使いません
+		
 		// Q8で使用した年齢を再代入
 		age = 24;
 		// boolean型変数 bo を宣言、参考演算子を用いて25以上ならtrue、そうでないならfalseを代入
 		boolean bo = age >= 25 ? true : false;
 		// 変数 bo の結果を出力
 		System.out.println(bo + "\n");
+		
 //		Q11 Q8で使用した【年齢・身長・体重】を文字列型に型変換し繋げて出力してください 
+		
 		// Q8の【身長・体重】を再代入
 		height = 168.5;
 		weight = 62.2;
-		// Q8の【年齢・身長・体重】を再代入したint型変数 age、height、weightを
-		// String型に型変換
+		// Q8の【年齢・身長・体重】を再代入したint型変数 age、height、weightをString型に型変換
 		String ageStr = String.valueOf(age);
 		String heightStr = String.valueOf(height);
 		String weightStr = String.valueOf(weight);
-		// String型に型変換した年齢・身長・体重】を出力
+		// String型に型変換した【年齢・身長・体重】を出力
 		System.out.println(ageStr + heightStr + weightStr + "\n");
 //		Q12 Q11で変換した【年齢・身長】を整数型に変換して出力してください
-		// Q11で宣言したString型変数 ageStr、heightStr、weightStrをint型に型変換
+		
+		// Q11で宣言したString型変数 ageStr、heightStr をint型に型変換
 		int ageInt = Integer.parseInt(ageStr);
 		int heightInt = (int)Double.parseDouble(heightStr);
 		// ageInt、heightIntを出力
 		System.out.println(ageInt);
 		System.out.println(heightInt + "\n");
+		
 //		Q13 Q12で変換した【年齢・身長】で【年齢が25もしくは身長が160以上】であればtrueを出力してください
 //		ただしif文は使わないでください
 		
