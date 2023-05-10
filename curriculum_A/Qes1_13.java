@@ -12,8 +12,8 @@ public class Qes1_13 {
 		byte byt;
 		// 短整数型変数 sho を宣言
 		short sho;
-		// 整数型変数 i を宣言
-		int i;
+		// 整数型変数 in を宣言
+		int in;
 		// 長整数型変数 lon を宣言
 		long lon;
 		// 単精度浮動小数点変数 flo を宣言
@@ -32,7 +32,7 @@ public class Qes1_13 {
 		// 上記で宣言した9つの変数にそれぞれのローカル変数毎の初期値を代入
 		byt = 0;
 		sho = 0;
-		i = 0;
+		in = 0;
 		lon = 0l;
 		flo = 0.0f;
 		dou = 0.0d;
@@ -54,8 +54,8 @@ public class Qes1_13 {
 		byt = 10;
 		// 変数 sho に値100を代入
 	    sho = 100;
-	    // 変数 i に値1000を代入
-	    i = 1000;
+	    // 変数 in に値1000を代入
+	    in = 1000;
 	    // 変数 lom に値10000Lを代入
 	    lon = 10000L;
 	    // 変数 flo に値9.5fを代入
@@ -80,15 +80,15 @@ public class Qes1_13 {
  * 		-90							10引く100をする
  */		
 	    // 出力結果: 11110
-	    System.out.println(byt + sho + i + lon + "\n");
+	    System.out.println(byt + sho + in + lon + "\n");
 	    // 出力結果: 20.0
 	    System.out.println(flo + dou + "\n");
 	    // 出力結果: a ハロー true
 	    System.out.println(cha + " " + str + " " + boo + "\n");
 	    // 出力結果: 11130.0	数字を全て足す
-	    System.out.println(byt + sho + i + lon + flo + dou + "\n");
+	    System.out.println(byt + sho + in + lon + flo + dou + "\n");
 	    // 出力結果: 10000000000	
-	    System.out.println(byt * sho * i * lon + "\n");
+	    System.out.println(byt * sho * in * lon + "\n");
 	    // 出力結果: 0.105
 	    System.out.println(dou / sho + "\n");
 	    // 出力結果: -90
