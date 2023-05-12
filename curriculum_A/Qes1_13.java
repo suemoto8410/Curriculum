@@ -209,7 +209,7 @@ public class Qes1_13 {
 		
 		// Q8の【身長・体重】を再代入
 		height = 168.5;
-		weight = 62.2;
+		weight = 64.2;
 		// Q8の【年齢・身長・体重】を再代入したint型変数 age、height、weightをString型に型変換
 		String ageStr = String.valueOf(age);
 		String heightStr = String.valueOf(height);
