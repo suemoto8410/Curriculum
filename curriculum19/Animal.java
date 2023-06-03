@@ -1,4 +1,4 @@
-package curriculum_19;
+package curriculum19;
 // yyyy-MM-dd H:m:s 形式で表示するためのフォーマット
 import java.text.SimpleDateFormat;
 // 現在の日付を取得

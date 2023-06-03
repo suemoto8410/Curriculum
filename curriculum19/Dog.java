@@ -1,4 +1,4 @@
-package curriculum_19;
+package curriculum19;
 
 public class Dog {
 	/* --------------------------------
