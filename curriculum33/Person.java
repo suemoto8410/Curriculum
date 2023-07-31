@@ -114,6 +114,7 @@ public class Person {
 		
 	}
 	
+	// 苗字と名前を合わせフルネームにして返す
 	public String fullName() {
 		
 		String fullName = firstName + lastName;
@@ -122,6 +123,7 @@ public class Person {
 		
 	}
 	
+	// 
 	public void printFullName() {
 		
 		String text = """	
