@@ -27,10 +27,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		/**
-		 * プロフィール
-		 * 身長は小数点第一(四捨五入), 体重小数点なし
-		 * @param 名前(フルネーム漢字), 年齢, 身長(m), 体重(kg)
+		/*
+		 * 入力した個人情報を登録
+		 * 名前(漢字フルネーム), 年齢, 身長(m)小数点第一位(四捨五入), 体重(kg)一の位(四捨五入)
 		 */
 		// 1人目
 		Person person1 = new Person("鈴木太郎", 20, 1.7, 60);

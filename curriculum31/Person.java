@@ -19,7 +19,11 @@ public class Person {
 
 	/**
 	 * 身長は小数点第一(四捨五入), 体重小数点なし
-	 * @param 名前(フルネーム漢字), 年齢, 身長(m), 体重(kg)
+	 * 
+	 * @param 名前
+	 * @param 年齢
+	 * @param 身長(m)
+	 * @param 体重(kg)
 	 */
 	public Person(String name, int age, double height, double weight)  {
 		
