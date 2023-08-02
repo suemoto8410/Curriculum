@@ -48,7 +48,7 @@ public class Person {
 		this.weight = weight;
 		
 		// Q10
-		personCount++;
+		Person.personCount++;
 	
 	}
 	
@@ -90,7 +90,7 @@ public class Person {
 	// 登録された人数を出力
 	public void printCount() {
 		
-		System.out.println("合計" + personCount + "人です");
+		System.out.println("合計" + Person.personCount + "人です");
 	
 	}
 
